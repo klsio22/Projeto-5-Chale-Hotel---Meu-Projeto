@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -52,8 +52,8 @@ body {
     top: 0;
     right: 0;
     background: url(../imagens/topo-imagem-lateral.png) no-repeat;
-    height: 450px;
-    width: 250px;
+    width: 450px;
+    height: 250px;
     z-index: 2;
 }
 
@@ -69,23 +69,44 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 0.7em;
-    color: #464114;
+    color:#8b8448;
 }
 
-a{
+#menu-locais .locais{ 
+    float: left;
+    line-height: 2.1em;
+}
+a {
     text-decoration: none;
 }
 
-a.reserva{
-
+li{
+    list-style: none;
 }
 
-menu{
+a.reserva {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+
+/* Barra de Navergação vertical */
+#menu {
     margin-top: 15px;
 }
 
 #navegacao {
     float: left;
+}
+
+#menu #navegacao ul a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
 }
 
 .depoimento {
@@ -96,3 +117,14 @@ menu{
 }
 
 /* Conteúdo do Site */
+
+
+
+/* Rodapé */
+
+#rodape{
+    clear: both;
+    padding: 16px;
+    background: #fff url(imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
